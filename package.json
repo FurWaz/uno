@@ -1,0 +1,28 @@
+{
+  "name": "uno",
+  "version": "0.1.0",
+  "description": "A web version of the game uno",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FurWaz/uno.git"
+  },
+  "keywords": [
+    "FurWaz",
+    "Uno"
+  ],
+  "author": "FurWaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FurWaz/uno/issues"
+  },
+  "homepage": "https://github.com/FurWaz/uno#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  }
+}
